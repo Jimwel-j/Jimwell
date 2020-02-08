@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    
+}
+.bc{
+    
+    background-color: skyblue;
+    text-align: center;
+    background: linear-gradient(to bottom, skyblue, rgb(73, 46, 146));
+    
+}
+@font-face{
+    src: url(../fonts/Montserrat/Montserrat-Medium.ttf);
+    font-family: Montserrat-Medium;
+}
+
+@font-face{
+    src: url(../fonts/Montserrat/Montserrat-Light.ttf);
+    font-family: Montserrat-Light;
+}
+@font-face
+{
+    src: url(../fonts/Merriweather/Merriweather-LightItalic.ttf);
+    font-family: "Merriweather-LightItalic";
+}
+
+@font-face
+{
+    src: url(../fonts/Sacramento/Sacramento-Regular.ttf);
+    font-family: "Sacramento-Regular";
+}
+
+@font-face
+{
+    src: url(../fonts/Montserrat/Montserrat-ExtraBoldItalic.ttf);
+    font-family: "Montserrat-ExtraBoldItalic";
+}
+
+h1 {
+    text-align: center;
+    font-family: "Merriweather-LightItalic";
+    font-size: 45px;
+    position: relative;
+    top: 150px;
+}
+
+h2{
+    text-align: center;
+    font-family: "Montserrat-ExtraBoldItalic";
+    font-size: 20px;
+    position: relative;
+    top: 200px;
+}
+
+
+.cloud1{
+    position: relative ;
+    top: 100px;
+    right: 550px;
+}
+
+
+
+.mountain1{
+    
+    position: relative;
+    left: 10rem;
+    top: 250px;
+}
+
+.cloud2{
+    position: relative;
+    bottom: 100px;
+    left: 100px;
+}
+
+header{
+    
+    height: 1000px;
+}
+
+.unt{
+    position: relative;
+    
+    bottom: 200px;
+    margin-top: 100px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    
+}
+.hello{
+    margin-top: 4rem;
+    font-family: Montserrat-Medium;
+
+}
+
+p{
+    position: relative;
+    bottom: 240px;
+    left: 15px;
+    text-align: center;
+    font-size: 70px;
+}
+
+.web{
+    font-family: Montserrat-Light;
+    margin-top: 3rem;
+    font-size: 25px;
+    position: relative;
+    bottom: 265px;
+}
+
+.my{
+    font-family: Montserrat-Medium;
+    font-size: 50px;
+    position: relative;
+    bottom: 50px;
+}
+.e{
+    font-family: Montserrat-Medium;
+    margin-top: 270px;
+    font-size: 25px;
+    display: inline-block;
+    
+}
+
+.b{
+    float: left;
+    height: 200px;
+    
+   
+ 
+}
+.gg{
+    text-align: left;
+    font-size: 20px;
+}
+
+.r{
+    font-family: Montserrat-Light;
+    text-align: left;
+    font-size: 20px;
+    left: 220px;
+    display: inline-block;
+    margin-top: 10px;
+    
+}
+    
+
+.q{
+    margin-left: 7rem;
+    margin-right: 200px;
+}
+
+.c{
+    float: right;
+    height: 250px;
+    margin-left: 75px;
+    height: 200px;
+    
+}
+
+.t{
+    font-family: Montserrat-Light;
+    font-size: 20px;
+    text-align: right;
+    margin-right: 290px;
+
+}
+
+
+.y{
+    font-family: Montserrat-Medium;
+    display: inline-block;
+    text-align: left;
+    margin-top: 260px;
+    margin-left: 500px;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.footer{
+    text-align: center;
+    background-color: rgb(138, 136, 238);
+    height: 5rem;
+
+    
+}
+li{
+    
+    padding: 20px;
+    
+    display: inline;
+}
+.jim{
+    margin-top: 280px;
+    font-size: 1rem;
+    color: white;
+}
+
+
+.get{
+    font-family: Montserrat-Medium;
+    text-align: center;
+    margin-top: 400px;
+    font-size: 50px;
+}
+.let{
+    font-family: Montserrat-Medium;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+}
+.love{
+    font-family: Montserrat-Light;
+    font-size: 18px;
+    margin-top: 50px;
+}
+.but{
+    margin-top: 70px;
+    width: 100px;
+    color: white;
+    height: 30px;
+    border-radius: 2rem;
+    background: linear-gradient(to bottom,rgb(95, 153, 241),rgb(37, 37, 99));
+}
+.but:hover{
+    margin-top: 70px;
+    width: 100px;
+    color: white;
+    height: 30px;
+    border-radius: 2rem;
+    background: linear-gradient(to bottom,rgb(95, 153, 241),rgb(85, 85, 255));
+}
