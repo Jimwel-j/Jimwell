@@ -1,0 +1,257 @@
+﻿@font-face
+{
+    src: url(../fonts/Montserrat-Bold.ttf);
+    font-family: Montserrat-Bold;
+}
+
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    background: url(../images/3571325.jpg);
+display: flex;
+color: white;
+font-family: Montserrat-Bold;
+text-shadow: 
+  #000000 2px 2px 9px,
+ #ffffff -2px -2px 8px; 
+ background-size: cover;
+justify-content: center;
+}
+
+
+
+
+.row {
+    display: flex;
+}
+  
+.column
+{
+    flex: 50%;
+ 
+}  
+
+.t1
+{
+    font-size: max(6vw, 50px);
+   
+}
+
+.title
+{
+   
+    justify-content: center;
+    margin: auto;
+    color: white;
+   
+}
+
+.t1{
+    font-size: max(6w, 50px);
+}
+
+.enter
+{   
+    
+    width: max(15vw,140px);
+    height: max(5vw,50px);
+    font-size: 20px;
+    background-color:transparent;
+    color: white;
+    border-radius: 30px;
+    outline: none;
+    display: block;
+   
+    top: 100px;
+   margin: auto;
+   margin-top: 30px;
+
+}
+
+#rank
+{
+    text-align: center;
+    margin:100px 0px;
+    font-size: 35px;
+}
+
+.card
+{
+ 
+    
+    display: block;
+    width:1100px ;
+    height: 500px;
+    margin: auto;
+   
+    border-radius: 4px;
+    padding: 40px;
+    box-shadow: 
+    #000000 4px 4px 10px,
+    #ffffff -4px -4px 10px; 
+    border-radius: 30px;
+    
+}
+
+.row {
+    display: flex;
+}
+  
+ 
+.column
+{
+    flex: 50%;
+    padding: 5px;
+    border-radius: 10px;
+    justify-content: center;
+
+}  
+
+
+table
+{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-right: 20px;
+ 
+
+}
+
+input
+{
+
+    margin: 5px 40px;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+   
+    
+}
+
+::placeholder
+{
+    color: rgb(194, 194, 194);
+    opacity: 1;
+}
+
+input:hover
+{
+    box-shadow: 
+   inset  #000000 4px 4px 9px,
+    inset #ffffff -4px -4px 8px; 
+    
+}
+
+button:active
+{
+    box-shadow: 
+    inset  #000000 4px 4px 9px,
+     inset #ffffff -4px -4px 8px; 
+     text-decoration: none;
+}
+h1
+{
+    text-align: center;
+    font-size: 28px;
+}
+
+h2
+{
+    font-size: 20px;
+    margin: 20px 0px;
+}
+
+h3{
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+th
+{
+    padding-bottom: 10px;
+}
+
+
+.evaluate
+{
+    
+    border: none;
+    width: 200px;
+    height: 60px;
+ 
+    padding: 5px;
+    color: white;
+    text-align: center;
+    display: block;
+    margin: auto;
+  
+    border-radius: 30px;
+}
+
+.name
+{
+    margin: 0px 10px;
+    border: 100px, solid,black;
+
+    font-weight: bold;
+    font-size: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-align: left;
+    display: inline;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+ 
+}
+
+
+button,input
+{
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    background:transparent;
+    text-shadow: 
+  #000000 2px 2px 9px,
+ #ffffff -2px -2px 8px; 
+    box-shadow: 
+    #000000 3px 3px 9px,
+    #ffffff -3px -3px 8px; 
+    color: white;
+    font-weight: bold;
+}
+
+th{
+    font-size: 20px;
+}
+
+hr
+{
+    box-shadow: 
+    #000000 4px 4px 9px,
+    #ffffff -4px -4px 8px; 
+}
+.ln
+{
+    width: 200px;
+    margin-left: 50px;
+}
+.fn
+{
+    width: 400px;
+}
+.mi
+{
+    width: 100;
+}
